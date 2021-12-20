@@ -24,7 +24,7 @@ console.log(parolaInvertitaArr);
 
 
 
-if(parolaArr=parolaInvertitaArr){
+if(parolaArr.toString()==parolaInvertitaArr.toString()){
     console.log('PAROLA PALINDROMA');
 }else{
     console.log('PAROLA NON PALINDROMA');

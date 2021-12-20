@@ -3,10 +3,10 @@ let inserisciPariDispari = prompt("inserisci pari o dispari");
 let inserisciNumero = parseInt(prompt("inserisci un numero da 1 a 5"));
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
-let NumeroComputer = Math.floor(Math.random() * 5)+1;
+let numeroComputer = Math.floor(Math.random() * 5)+1;
 
 // Sommiamo i due numeri
-let totale = inserisciNumero + NumeroComputer;
+let totale = inserisciNumero + numeroComputer;
 
 
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
@@ -32,6 +32,6 @@ function pariDispariFunction(){
 // Dichiariamo chi ha vinto.
 console.log(inserisciPariDispari);
 console.log(inserisciNumero);
-console.log(NumeroComputer);
+console.log(numeroComputer);
 console.log(totale);
 console.log(pariDispariFunction());
